@@ -1,0 +1,15 @@
+Source: urh
+Section: hamradio
+Priority: optional
+Maintainer: nick black <dankamongmen@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: https://github.com/jopohl/urh
+Vcs-Browser: https://github.com/jopohl/urh
+Vcs-Git: https://github.com/jopohl/urh.git
+
+Package: urh
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: RF investigation tool
+ Investigate wireless protocols like a boss.
